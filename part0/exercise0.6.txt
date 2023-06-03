@@ -1,0 +1,18 @@
+title Exercise 0.6
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+post note data with json
+end note
+
+server->browser: json data
+
+note over server:
+response note create message with json
+end note
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
